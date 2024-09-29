@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            input[type="number"]:out-of-range{
+
+                border:2px solid red;
+            }
+            input[type="number"]:in-range{
+
+                    border:2px solid green;
+            }
+            input[type="email"]:invalid{
+                border:2px solid red
+            }
+            p::first-line{
+                text-decoration: underline;
+                font-size: 20px;
+                color: red;
+            }
+            p::before{
+                content: KLU;
+            }
+            p::after{
+                content: KLU;
+            }
+            p::selection{
+                background-color: yellow;
+                color: brown;
+            }
+            input[type="email"]::placeholder{
+                color: red;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Pseudo class and element</h1>
+      Enter Age:  <input type="number" placeholder="enter age" min="0" max="18" style="width:100px">
+      <br/>
+      Enter Email:  <input type="email" placeholder="enter email" style="width:500px">
+      <br/><br/>
+      <p>
+
+        K L Deemed to be University, formerly Koneru Lakshmaiah College of Engineering and Koneru Lakshmaiah University, is a higher educational institution Deemed to be University, located in Vijayawada, Andhra Pradesh, India.
+      </p>
+
+    </body>
+    </body>
+</html>
