@@ -1,0 +1,19 @@
+.c1{
+    font-size: 2rem;
+    }
+    .c2{
+        font-size: 3rem;
+    }
+    .my_dev{
+        font-size: 2rem;
+    }
+    .c3{
+        font-size: 1em;
+    }
+    .percent_cls{
+        width: 400px;
+        height: 250px;
+        border: 1px solid red;
+    }
+    .c4{width: 100%;
+    background-color: green;}
